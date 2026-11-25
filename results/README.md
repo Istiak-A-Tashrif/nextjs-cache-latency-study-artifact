@@ -34,10 +34,7 @@ Analysis only, no Docker/measurement/network needed:
 
 ```sh
 UNI_PYTHON="$PWD/.venv/bin/python" results/analyze
-PANDOC=/path/to/pandoc TECTONIC=/path/to/tectonic .venv/bin/python manuscript/build.py
 ```
-
-Native Pandoc 3.12.1 creates both DOCX and generic-article LaTeX. Install the ARM macOS build on Apple Silicon; do not rely on pypandoc_binary 1.17, whose tested ARM wheel contained an x86 executable. Tectonic 0.17.0 compiles the PDF and needs internet on first use to fetch TeX packages; macOS Times New Roman fonts must be installed. The manuscript Word reference template sets SUJ formatting; the build checks abstract and source word limits. `references.json` is the Pandoc CSL bibliography; `references.bib` contains the same verified sources for LaTeX users.
 
 ## Raw evidence
 

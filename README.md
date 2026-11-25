@@ -33,6 +33,6 @@ Code is MIT licensed (see `LICENSE`).
 
 If you use this artifact, please cite the Zenodo archive of the release you used:
 
-> Tashrif, I. A. (2026). Research artifact: Next.js cache placement and data-visible latency study (v1.0.0) [Software and data]. Zenodo. https://doi.org/10.5281/zenodo.23603489
+> Tashrif, I. A. (2026). Research artifact: Next.js cache placement and data-visible latency study (v1.1.0) [Software and data]. Zenodo. https://doi.org/10.5281/zenodo.23603489
 
 Repository: https://github.com/Istiak-A-Tashrif/nextjs-cache-latency-study-artifact
